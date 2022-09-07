@@ -1,7 +1,10 @@
+site_name: 笔记
 nav:
-    - 'index.md'
-    - 'about.md'
+    - '主页.md'
+    - '关于.md'
+    - '使用文档.md'
 theme:
     name: material
     locale: zh_CN
-site_name: My Docs
+markdown_extentions:
+    - admonition
