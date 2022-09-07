@@ -1,8 +1,12 @@
 site_name: 笔记
 nav:
-    - '主页.md'
-    - '关于.md'
-    - '使用文档.md'
+- 主页: 'index.md'
+- 1: 
+    - 1-1:  1-1.md
+    - 1-2: 1-2.md
+- 2: 
+    - 2-1: 2-1.md
+    - 2-2: 2-2.md
 theme:
     name: material
     locale: zh_CN
