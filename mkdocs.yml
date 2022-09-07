@@ -1,0 +1,7 @@
+nav:
+    - 'index.md'
+    - 'about.md'
+theme:
+    name: material
+    locale: zh_CN
+site_name: My Docs
