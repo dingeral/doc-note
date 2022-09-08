@@ -7,6 +7,8 @@ theme:
         - navigation.tracking
         - navigation.tabs
         - navigation.expand
+        - navigation.sections
+        - navigation.indexes
         - toc.follow
         - navigation.top
         - search.suggest
@@ -27,8 +29,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 日光模式
-markdown_extentions:
-    - admonition
 
 plugins:
  - search:
@@ -41,6 +41,6 @@ nav:
     - 主页: index.md
     - 使用文档: 使用文档.md
     - 阅读: 
-        - docs\阅读\index.md
-        - 陪孩子走过学前六年: docs\阅读\陪孩子走过学前六年.md
-        - 1-2: docs\阅读\1-2.md
+        - 阅读\index.md
+        - 陪孩子走过学前六年: 阅读\陪孩子走过学前六年.md
+        - 1-2: 阅读\1-2.md
