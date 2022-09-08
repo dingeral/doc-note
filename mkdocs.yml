@@ -11,6 +11,38 @@ nav:
 
 theme:
     name: material
-    locale: zh_CN
+    locale: zh
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.expand
+        - toc.follow
+        - navigation.top
+        - search.suggest
+        - search.highlight
+    palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/brightness-7
+        name: 黑暗模式
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 日光模式
 markdown_extentions:
     - admonition
+
+plugins:
+ - search:
+      separator: '[\s\u200b\-]'
+      jieba_dict: dict.txt
+      lang: en
+ - tags
