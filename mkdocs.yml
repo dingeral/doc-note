@@ -63,6 +63,8 @@ plugins:
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -73,6 +75,9 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -93,4 +98,14 @@ nav:
     - 思考:
         - 思考: 思考/0100.md
         - 故事: 思考/0101.md
+    - 竹简:
+        - 竹简/index.md
+        - 😷 2022: 竹简/2022/index.md
+    - 基础工程:
+        - 基础工程/index.md
+        - 🍉 影视: 基础工程/0207.md
+        - 📚︎ 阅读: 基础工程/0208.md
+        - 🖭 存储: 基础工程/0209.md
+        - 🖧 连网: 基础工程/0210.md
+        - ⚙ 软件: 基础工程/0211.md
     - 关于: 关于.md
