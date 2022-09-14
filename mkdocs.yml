@@ -1,8 +1,8 @@
 site_name: 笔记
 theme:
     name: material
-    locale: zh
-    features:
+    language: zh
+    features: 
         # - navigation.instant
         - navigation.tracking
         - navigation.tabs
@@ -48,7 +48,7 @@ theme:
 plugins:
   - search:
         separator: '[\s\u200b\-]'
-      #   jieba_dict: dict.txt
+        # jieba_dict: dict.txt
         lang: en
   - tags
   - glightbox:
@@ -61,22 +61,38 @@ plugins:
         draggable: true
 
 markdown_extensions:
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true 
+
+  # Python Markdown
+  - abbr
   - admonition
   - attr_list
+  - def_list
+  - footnotes
   - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 
 extra_javascript:
@@ -101,6 +117,9 @@ nav:
     - 竹简:
         - 竹简/index.md
         - 😷 2022: 竹简/2022/index.md
+    - skill: 
+        - skills/index.md
+        - win 命令行: skills/0306.md
     - 基础工程:
         - 基础工程/index.md
         - 🍉 影视: 基础工程/0207.md
