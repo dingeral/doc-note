@@ -3,11 +3,11 @@ theme:
     name: material
     language: zh
     features: 
-        # - navigation.instant
+        - navigation.instant
         - navigation.tracking
-        - navigation.tabs
-        - navigation.expand
-        - navigation.sections
+        # - navigation.tabs
+        # - navigation.expand
+        # - navigation.sections
         - navigation.indexes
         - toc.follow
         - navigation.top
@@ -102,10 +102,17 @@ extra_javascript:
 nav:
     - 主页: 'index.md'
     - 使用文档: '使用文档.md'
+    - 信息:
+        - 新闻: 信息/0401.md
+        - 订阅: 信息/订阅.md
+        - 充电: 信息/充电.md
+        - 社区: 信息/community.md
     - 阅读: 
-        - '阅读/index.md'
+        - 阅读/index.md
         - 📚︎ 已读: 阅读/0301.md
         - 📖 在读: 阅读/0302.md
+        - 🔖 预读: 阅读/0303.md
+        - ✏︎ 笔记: 阅读/0304.md
         - 陪孩子走过学前六年: '阅读/陪孩子走过学前六年.md'
     - 图片:
         - 认真: 图片/认真.md
@@ -127,5 +134,7 @@ nav:
         - 🖧 连网: 基础工程/0210.md
         - ⚙ 软件: 基础工程/0211.md
         - 🧩 插件: 基础工程/0212.md
+        - 🚕 好物: 基础工程/0213.md
+        - 🌟 路灯: 基础工程/0214.md
         - 订阅: 基础工程/0206.md
     - 关于: 关于.md
