@@ -4,5 +4,9 @@
             "mkdocs.yml",
             "file:///d%3A/github/doc-note/mkdocs.yml"
         ]
-    }
+    },
+    "picgo.configPath": "C:\\Users\\dingeral\\AppData\\Roaming\\picgo\\data.json",
+    "picgo.dataPath": "C:\\Users\\dingeral\\AppData\\Roaming\\picgo\\data.json",
+    "picgo.picBed.uploader": "",
+    "picgo.picBed.proxy": ""
 }
