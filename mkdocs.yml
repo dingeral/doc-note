@@ -58,6 +58,9 @@ plugins:
             height: auto
             zoomable: true
             draggable: true
+    - git-revision-date-localized:
+            enable_creation_date: true
+            type: iso_date
 
 
 markdown_extensions:
@@ -121,8 +124,9 @@ nav:
         - 故事: 思考/故事.md
         - 观点: 思考/观点.md
     - 竹简:
-        - 竹简/index.md
-        - 😷 2022: 竹简/2022/index.md
+        - little: 竹简/little.md
+        - long: 竹简/2022/long.md
+        # - 😷 2022: 竹简/2022/index.md
     - skill: 
         - skills/index.md
         - win 命令行: skills/0306.md
