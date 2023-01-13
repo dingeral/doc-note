@@ -48,8 +48,7 @@ plugins:
             separator: '[\s\u200b\-]'
             # jieba_dict: dict.txt
             lang: en
-    - tags:
-            enabled: true
+    - tags
     - glightbox:
             touchNavigation: true
             loop: false
