@@ -8,5 +8,8 @@
     "picgo.configPath": "C:\\Users\\dingeral\\AppData\\Roaming\\picgo\\data.json",
     "picgo.dataPath": "C:\\Users\\dingeral\\AppData\\Roaming\\picgo\\data.json",
     "picgo.picBed.uploader": "",
-    "picgo.picBed.proxy": ""
+    "picgo.picBed.proxy": "",
+    "cSpell.words": [
+        "twemoji"
+    ]
 }
