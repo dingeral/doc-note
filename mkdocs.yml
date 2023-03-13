@@ -108,6 +108,10 @@ extra_javascript:
 
 nav:
     - 主页: index.md
+    - 研学:
+        - 开端: 研学/开端.md
+        - 图书馆: 研学/图书馆.md
+        - 分科: 研学/分科.md
     - 摘抄:
         - Weekly: 摘抄/001.md
     - Write:
