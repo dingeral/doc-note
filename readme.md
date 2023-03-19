@@ -1,4 +1,4 @@
-## 一些文档记录
+# 一些文档记录
 
 <!-- 
 
@@ -6,7 +6,6 @@
 
 pip install --upgrade mkdocs-material
 pip install mkdocs-material=="9.*" 
-
 
 #搭建本地浏览
 
