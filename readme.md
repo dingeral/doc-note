@@ -18,4 +18,13 @@ http://localhost:8000/
     #     - 只言片语: 现代启示录/0702.md
     #     - 效应: 现代启示录/0707.md
 
+<!-- 
+使用正则表达式转化
+例如 
+[欢迎来到Brayn的博客](https://brayn.top)
+<a href="https://brayn.top" target="_blank">欢迎来到Brayn的博客 </a>
+
+    \[([^\]]+)\]\(([^)]+)\)          <a href="$2" target="_blank">$1</a>
+ -->
+
  -->
