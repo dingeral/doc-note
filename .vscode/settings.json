@@ -11,5 +11,8 @@
     "picgo.picBed.proxy": "",
     "cSpell.words": [
         "twemoji"
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "master"
     ]
 }

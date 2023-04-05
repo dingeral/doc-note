@@ -47,7 +47,7 @@ plugins:
     - search:
             separator: '[/s/u200b/-]'
             # jieba_dict: dict.txt
-            lang: en
+            lang: zh
     - tags
     - glightbox:
             touchNavigation: true

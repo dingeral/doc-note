@@ -5,9 +5,10 @@
 #升级到最新版本
 
 pip install --upgrade mkdocs-material
-pip install mkdocs-material=="9.1.3" 
+pip install mkdocs-material=="9.1.5" 
 pip install mkdocs-glightbox
 pip install mkdocs-git-revision-date-localized-plugin
+pip install jieba
 
 #搭建本地浏览
 
