@@ -3,7 +3,8 @@
         "https://squidfunk.github.io/mkdocs-material/schema.json": [
             "mkdocs.yml",
             "file:///d%3A/github/doc-note/mkdocs.yml"
-        ]
+        ],
+        "https://json.schemastore.org/github-workflow.json": "file:///d%3A/github/doc-note/.github/workflows/ci.yml"
     },
     "picgo.configPath": "C:\\Users\\dingeral\\AppData\\Roaming\\picgo\\data.json",
     "picgo.dataPath": "C:\\Users\\dingeral\\AppData\\Roaming\\picgo\\data.json",
