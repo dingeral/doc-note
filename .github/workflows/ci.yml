@@ -11,17 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-          fetch-depth: 0
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v2
         with:
-          key: mkdocs-material-${{ env.cache_id }}
           path: .cache
+          key: ${{ runner.os }}-pip-${{ env.cache_id }}-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
-            mkdocs-material-
+            ${{ runner.os }}-pip-${{ env.cache_id }}-
+            ${{ runner.os }}-pip-
       - run: pip install mkdocs-material=="9.1.13" 
       - run: pip install mkdocs-glightbox
       - run: pip install mkdocs-git-revision-date-localized-plugin
