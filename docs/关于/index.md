@@ -16,6 +16,6 @@
 
 目前状态：![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dingeral/doc-note/ci.yml)
 
-部分内容来自 `ChatGPTt`、`GPT-4`、`Claude+` 等。
+部分内容来自 `ChatGPT`、`GPT-4`、`Claude+` 等。
 
 搭建（白嫖）完毕。
