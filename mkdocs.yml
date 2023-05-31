@@ -138,7 +138,7 @@ nav:
     - 竹简:
         - little: 竹简/little.md
         - long: 竹简/2022/long.md
-        - N2023: 竹简/2023/index.md
+        - 2023: 竹简/2023/ns.md
     - skill: 
         - skills/index.md
         - win 命令行: skills/0306.md
