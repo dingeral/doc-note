@@ -2,7 +2,7 @@
 
 主题：![ ](https://img.shields.io/docker/v/squidfunk/mkdocs-material?label=Material)
 
-环境：![ ](https://img.shields.io/badge/-CodeSpaces-yellowgreen)
+<!-- 环境：![ ](https://img.shields.io/badge/-CodeSpaces-yellowgreen) -->
 
 构建：![ ](https://img.shields.io/badge/-GitHub%20Actions-blue)
 
@@ -15,5 +15,7 @@
 编辑:：![ ](https://img.shields.io/badge/-VS%20Code-orange)
 
 目前状态：![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dingeral/doc-note/ci.yml)
+
+部分内容来自 `ChatGPTt`、`GPT-4`、`Claude+` 等。
 
 搭建（白嫖）完毕。
