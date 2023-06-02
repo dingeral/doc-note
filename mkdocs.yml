@@ -29,16 +29,15 @@ theme:
             quote: fontawesome/solid/quote-left
     palette:
         primary: blue
-
         toggle:
-            - name: 黑暗模式
-            scheme: default
-            media: "(prefers-color-scheme: light)"
-            icon: material/toggle-switch
-            - name: 日光模式
-            scheme: slate
-            media: "(prefers-color-scheme: dark)"
-            icon: material/toggle-switch-off-outline
+            - name: "黑暗模式"
+              scheme: default
+              media: "(prefers-color-scheme: light)"
+              icon: material/toggle-switch
+            - name: "日光模式"
+              scheme: slate
+              media: "(prefers-color-scheme: dark)"
+              icon: material/toggle-switch-off-outline
 
 plugins:
     - search:
