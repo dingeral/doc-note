@@ -15,5 +15,7 @@
     ],
     "githubPullRequests.ignoredPullRequestBranches": [
         "master"
-    ]
+    ],
+    "CodeGPT.organizationId": "org-Symyv3KrvwwU1TWk9YtT70Z7",
+    "CodeGPT.query.language": "Chinese"
 }
