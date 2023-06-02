@@ -1,8 +1,8 @@
 site_name: 笔记
 theme:
-    name: material
-    language: zh
-    features: 
+  name: material
+  language: zh
+  features: 
         - navigation.instant
         - navigation.tracking
         - navigation.tabs
@@ -13,7 +13,7 @@ theme:
         - navigation.top
         - search.suggest
         - search.highlight
-    icon:
+  icon:
         admonition:
             note: fontawesome/solid/note-sticky
             abstract: fontawesome/solid/book
@@ -27,22 +27,34 @@ theme:
             bug: fontawesome/solid/robot
             example: fontawesome/solid/flask
             quote: fontawesome/solid/quote-left
-    palette:
-        primary: blue
+  # palette:
+  #   primary: teal
 
-    # Palette toggle for light mode
-        - media: "(prefers-color-scheme: light)"
-        scheme: default
-        toggle:
-            icon: material/toggle-switch
-            name: Switch to dark mode
+  #   # Palette toggle for light mode
+  #   # - scheme: default
+  #   toggle:
+  #       icon: material/brightness-7 
+  #       name: Switch to dark mode
 
-        # Palette toggle for dark mode
-        - media: "(prefers-color-scheme: dark)"
-        scheme: slate
-        toggle:
-            icon: material/toggle-switch-off-outline
-            name: Switch to light mode
+  #   # # Palette toggle for dark mode
+  #   # - scheme: slate
+  #   toggle:
+  #       icon: material/brightness-4
+  #       name: Switch to light mode
+
+  palette:
+    - scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: 切换到黑暗模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 切换到日光模式
 
 plugins:
     - search:

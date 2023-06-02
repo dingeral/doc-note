@@ -2,8 +2,8 @@
 #有点费资源。只有关闭了
 #升级到最新版本
 
-pip install --upgrade mkdocs-material
-pip install mkdocs-material=="9.1.5" 
+
+pip install mkdocs-material
 pip install mkdocs-glightbox
 pip install mkdocs-git-revision-date-localized-plugin
 pip install jieba
