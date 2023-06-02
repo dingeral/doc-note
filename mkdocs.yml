@@ -29,15 +29,18 @@ theme:
             quote: fontawesome/solid/quote-left
     palette:
         primary: blue
-        toggle:
-            - name: "黑暗模式"
-              scheme: default
-              media: "(prefers-color-scheme: light)"
-              icon: material/toggle-switch
-            - name: "日光模式"
-              scheme: slate
-              media: "(prefers-color-scheme: dark)"
-              icon: material/toggle-switch-off-outline
+        # Palette toggle for light mode
+        - media: "(prefers-color-scheme: light)"
+            scheme: default
+            toggle:
+                icon: material/toggle-switch
+                name: Switch to dark mode
+        # Palette toggle for dark mode
+        - media: "(prefers-color-scheme: dark)"
+            scheme: slate
+            toggle:
+                icon: material/toggle-switch-off-outline
+                name: Switch to light mode
 
 plugins:
     - search:
