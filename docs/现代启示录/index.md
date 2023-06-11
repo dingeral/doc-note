@@ -25,7 +25,7 @@
 
 ## 基因的进化与思维的探索
 
-!<a href="https://s2.loli.net/2022/10/07/RuKgXfiD9VCcbrN.jpg" target="_blank">f5</a>
+![f5](https://s2.loli.net/2022/10/07/RuKgXfiD9VCcbrN.jpg)
 
 人是数亿年进化的产物，
 

@@ -2,7 +2,7 @@
 
 现在使用 Google 在互联网世界里冲浪，掌握一点点高级搜索技巧则会游刃有余。
 
-如果你对 Google 还不了解，<a href="https://e8aced0umw.feishu.cn/file/boxcnsInP04smYNQDXyJBUZcYmf" target="_blank">Google 搜索从入门到精通</a>  值得一看。
+如果你对 Google 还不了解，[Google 搜索从入门到精通](https://e8aced0umw.feishu.cn/file/boxcnsInP04smYNQDXyJBUZcYmf)  值得一看。
 
 ## 初级搜索
 
