@@ -1,0 +1,1381 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.3">
+    
+    
+      
+        <title>内容生产者所利用的人性 - 笔记</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0e669242.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h224V368c0-26.5 21.5-48 48-48h112V96c0-35.3-28.7-64-64-64H64zm384 320H336c-8.8 0-16 7.2-16 16v112l32-32 64-64 32-32z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm-40-176h24v-64h-24c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-80c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M480 32c0-12.9-7.8-24.6-19.8-29.6S434.5.2 425.3 9.3L381.7 53c-48 48-113.1 75-181 75H64c-35.3 0-64 28.7-64 64v96c0 35.3 28.7 64 64 64v128c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V352h8.7c67.9 0 133 27 181 75l43.6 43.6c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V300.4c18.6-8.8 32-32.5 32-60.4s-13.4-51.6-32-60.4V32zm-64 76.7v262.6C357.2 317.8 280.5 288 200.7 288H192v-96h8.7c79.8 0 156.5-29.8 215.3-83.3z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm-86.2-346.7c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1 0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6-13.3 0-24-10.7-24-24v-13.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1 0-8.4-6.8-15.1-15.1-15.1h-58.3c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1-64 0z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7.2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8.2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24v112c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0-64 0 32 32 0 1 0 64 0z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.1 52.4 442.6 6.5c-1.9-3.9-6.1-6.5-10.5-6.5s-8.5 2.6-10.4 6.5l-16.5 45.9-46 16.8c-4.3 1.6-7.3 5.9-7.2 10.4 0 4.5 3 8.7 7.2 10.2l45.7 16.8 16.8 45.8c1.5 4.4 5.8 7.5 10.4 7.5s8.9-3.1 10.4-7.5l16.5-45.8 45.7-16.8c4.2-1.5 7.2-5.7 7.2-10.2 0-4.6-3-8.9-7.2-10.4l-45.6-16.8zm-132.4 53c-12.5-12.5-32.8-12.5-45.3 0l-2.9 2.9c-22-8-45.8-12.3-70.5-12.3C93.1 96 0 189.1 0 304s93.1 208 208 208 208-93.1 208-208c0-24.7-4.3-48.5-12.2-70.5l2.9-2.9c12.5-12.5 12.5-32.8 0-45.3l-80-80zM200 192c-57.4 0-104 46.6-104 104v8c0 8.8-7.2 16-16 16s-16-7.2-16-16v-8c0-75.1 60.9-136 136-136h8c8.8 0 16 7.2 16 16s-7.2 16-16 16h-8z"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 398.9c58.5-41.1 96-104.1 96-174.9C512 100.3 397.4 0 256 0S0 100.3 0 224c0 70.7 37.5 133.8 96 174.9V464c0 26.5 21.5 48 48 48h48v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h64v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h48c26.5 0 48-21.5 48-48v-65.1zM96 256a64 64 0 1 1 128 0 64 64 0 1 1-128 0zm256-64a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M320 0c17.7 0 32 14.3 32 32v64h120c39.8 0 72 32.2 72 72v272c0 39.8-32.2 72-72 72H168c-39.8 0-72-32.2-72-72V168c0-39.8 32.2-72 72-72h120V32c0-17.7 14.3-32 32-32zM208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-32zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-32zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-32zM264 256a40 40 0 1 0-80 0 40 40 0 1 0 80 0zm152 40a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM48 224h16v192H48c-26.5 0-48-21.5-48-48v-96c0-26.5 21.5-48 48-48zm544 0c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48h-16V224h16z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v132.8c0 11.8-3.3 23.5-9.5 33.5L10.3 406.2C3.6 417.2 0 429.7 0 442.6 0 480.9 31.1 512 69.4 512h309.2c38.3 0 69.4-31.1 69.4-69.4 0-12.8-3.6-25.4-10.3-36.4L329.5 230.4c-6.2-10.1-9.5-21.7-9.5-33.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0h-32zm-96 196.8V64h64v132.8c0 23.7 6.6 46.9 19 67.1l34.5 56.1h-171l34.5-56.1c12.4-20.2 19-43.4 19-67.1z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64h-64c-35.3 0-64-28.7-64-64V216z"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="笔记" class="md-header__button md-logo" aria-label="笔记" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            笔记
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              内容生产者所利用的人性
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="切换到黑暗模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到黑暗模式" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到日光模式"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="切换到日光模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+    
+  
+  主页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E7%A0%94%E5%AD%A6/%E5%BC%80%E7%AB%AF/" class="md-tabs__link">
+          
+  
+    
+  
+  研学
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E5%81%A5%E5%BA%B7/01/" class="md-tabs__link">
+          
+  
+    
+  
+  健康
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../little/" class="md-tabs__link">
+          
+  
+    
+  
+  竹简
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../skills/" class="md-tabs__link">
+          
+  
+    
+  
+  skill
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E5%9F%BA%E7%A1%80%E5%B7%A5%E7%A8%8B/" class="md-tabs__link">
+          
+  
+    
+  
+  基础工程
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E5%85%B3%E4%BA%8E/" class="md-tabs__link">
+          
+  
+    
+  
+  关于
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="笔记" class="md-nav__button md-logo" aria-label="笔记" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    笔记
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../.." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    主页
+  </span>
+  
+
+            </a>
+            
+              <label class="md-nav__link " for="__nav_1">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            主页
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../zx/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    哲学是什么
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    研学
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            研学
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E7%A0%94%E5%AD%A6/%E5%BC%80%E7%AB%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    开端
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E7%A0%94%E5%AD%A6/%E5%9B%BE%E4%B9%A6%E9%A6%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    图书馆
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E7%A0%94%E5%AD%A6/%E5%88%86%E7%A7%91/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    分科
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E7%A0%94%E5%AD%A6/%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    信息检索
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E7%A0%94%E5%AD%A6/%E8%AF%BE%E7%A8%8B/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    课程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    健康
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            健康
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%81%A5%E5%BA%B7/01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    前言
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%81%A5%E5%BA%B7/02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    营养素
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%81%A5%E5%BA%B7/03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    健身
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%81%A5%E5%BA%B7/04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    饮食
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    竹简
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            竹简
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../little/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    little
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2022/long/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    long
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../skills/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    skill
+  </span>
+  
+
+            </a>
+            
+              <label class="md-nav__link " for="__nav_5">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            skill
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../skills/0306/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    win 命令行
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E5%9F%BA%E7%A1%80%E5%B7%A5%E7%A8%8B/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    基础工程
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            基础工程
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E5%85%B3%E4%BA%8E/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    关于
+  </span>
+  
+
+            </a>
+            
+              <label class="md-nav__link " for="__nav_7">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            关于
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%85%B3%E4%BA%8E/%E5%8F%82%E8%80%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    参考
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%85%B3%E4%BA%8E/log/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    日志
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    哪些内容是受欢迎的？为什么？有没有通用的流量密码？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    性是第一生产力
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    千金难博君一笑
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    追求新鲜感永无止境
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    好奇心、猎奇心和窥探欲
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    人人都爱听故事
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    渴望财富吗？
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="_1">内容生产者所利用的人性<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<ul>
+<li><a href="https://hardcored.substack.com/p/w9">https://hardcored.substack.com/p/w9</a></li>
+</ul>
+<h3 id="_2">哪些内容是受欢迎的？为什么？有没有通用的流量密码？<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>亲爱的读者朋友们，你是否经常在互联网上浏览各种内容，那么你是否有过这样的疑惑：</p>
+<ul>
+<li>我宝贵的时间都被哪些内容给占据了？</li>
+<li>是什么在驱使我去看这些内容的？</li>
+</ul>
+<p>作为一个严重依赖互联网获取信息的人来说，我当然也有这样的疑惑。同时，我还会在业余时间里写点东西，姑且算是个小小的内容生产者，我当然也思考过这样的问题：</p>
+<ul>
+<li>什么内容是人们爱看的？它们都有什么共同点？</li>
+<li>人们希望从内容中获得什么？驱使人们去看某些内容的源动力是什么？</li>
+<li>有没有通用的流量密码？</li>
+</ul>
+<p>其实上面的这些问题，说的都是同一件事情：<strong>人们爱看什么？</strong></p>
+<p>这些问题都在驱使着我去思考问题的本质，这个本质就是 <strong>人和人性</strong>，毕竟，内容的消费者就是人。</p>
+<p>想清楚了这些问题，作为内容消费者的你，能在人人都是内容生产者的时代里更加理性客观、从容不迫；作为内容生产者的你，也能生产更好的内容，来达到你的目的。</p>
+<p>这有点像是左右互搏的过程，关键在于你是否知己知彼。</p>
+<p>为了便于讨论，在这篇文章中，我会把「好的内容」狭义地定义为「观看量多的内容」。</p>
+<h3 id="_3">性是第一生产力<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>性是我们作为动物的本能，我们诞生于性，也将以性的方式传承下去。<strong>性也是最广泛的被内容生产者所利用的人性。</strong></p>
+<p>有调查显示，互联网上大概有 20%-30% 的流量都来自于色情内容（也有说是 35%，我们不去纠结数字的准确性）。</p>
+<p>虽然这里所说的色情内容还只是狭义上的「性内容」，但是这个量级的比例还是大得让人瞠目结舌，也足以窥见这类需求的旺盛。</p>
+<p>Onlyfans 是一个付费版的推特，你只有成为某人的会员才能访问其内容，随着时间发展，人们发现它特别适合用来分发色情内容，所以现在它基本上就成了一个付费色情内容平台。</p>
+<p>这个平台发展地有多快？据他们官方公布的数据来看，他们只花了 7 年时间，就已经发展出了 1.5 亿的注册用户，而且这个势头还在持续。</p>
+<p><a class="glightbox" href="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimagesab9a100c-d7c9-4f25-a010-7c4a171eac23_1988x654-20230521085033-4l4o08t.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="." src="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimagesab9a100c-d7c9-4f25-a010-7c4a171eac23_1988x654-20230521085033-4l4o08t.png" /></a></p>
+<p>甚至有 Onlyfans 的女主播说过：</p>
+<blockquote>
+<p>I make rent money in 10 minutes. I don’t get why people work long hours.</p>
+<p>我只要十分钟就能赚到房租，我不明白为什么有人会工作那么长时间。</p>
+</blockquote>
+<p>这足以窥见色情内容的旺盛需求。</p>
+<p>你喜欢看漂亮的小姐姐（帅气的小哥哥）吗？喜欢吧？那就对了。这就是更广泛的性内容。</p>
+<p>性内容是天生就自带吸流量体质的，人人都爱看嘛。有些内容生产者是深谙这个道理的，所以他们懂得运用各种程度的性暗示来提高关注度。</p>
+<p><a class="glightbox" href="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages27d55d87-f432-48a8-bba8-843c1c28f534_1212x681-20230521085034-1nog4qa.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="." src="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages27d55d87-f432-48a8-bba8-843c1c28f534_1212x681-20230521085034-1nog4qa.png" /></a></p>
+<p>这样的例子数不胜数，我随便举一个：油管上有个女孩（<a href="https://www.youtube.com/@panpianoatelier">Pan Piano</a>）发自己弹钢琴的视频，一开始是在很正经地弹钢琴，但观看者寥寥无几，直到某天她开始穿比基尼弹钢琴，观看量和订阅量就如同坐火箭一样地往上飞涨。粉丝们真的是来欣赏艺术的吗？😊</p>
+<h3 id="_4">千金难博君一笑<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>有一个显而易见的被利用的人性。</p>
+<p>朋友你没有想过，为什么看到别人出糗时，你会忍不住捧腹大笑？我觉得这就是人的本能。</p>
+<p>人们在这种本能的驱使下，创造了喜剧，创造了相声，创造了脱口秀，创造了搞笑艺人，创造了恶作剧，创造了小丑，创造了各种梗……</p>
+<p>如果你能让人发自内心地开怀一笑，那么你一定是受广大群众欢迎的。这也就是为什么互联网上那么多以搞笑整活为主的网红，他们总是能被人们乐此不彼地关注着。</p>
+<p>生活需要幽默，欢乐难以估值。</p>
+<p><a class="glightbox" href="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages35b5f054-45d1-4a35-9f70-1552c71366b9_800x450-20230521085034-4xfi40b.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="." src="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages35b5f054-45d1-4a35-9f70-1552c71366b9_800x450-20230521085034-4xfi40b.png" /></a></p>
+<p>当然了，让观众一笑其实并不容易，我常常佩服于那些浑身散发着幽默感的人，佩服于那些精通喜剧的艺术的人，佩服于那些搞笑漫画的作者……有时候当我碰到一部好笑的作品时，我也会忍不住拍腿叫好：“这也太有才了！”</p>
+<h3 id="_5">追求新鲜感永无止境<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>我尝尝会思考一些很无聊的问题，比如说「为什么我们需要新闻？」、「没有新闻的世界会怎么样？」……</p>
+<p>后来我想明白了，我们人类作为一种社会性动物，对于我们周围的世界，我们有着强烈的兴趣，我们迫切希望保持对周遭的了解，这是刻在基因里的本能。</p>
+<p>我们又常常能听到一个词，叫做「热点」，新鲜出炉的大新闻总能吸引一大片的注意力，这就叫做热点。</p>
+<p>热点来得快去得也快，我们可能前两天还在热火朝天地讨论 AI 是如何改变世界的，过两天可能就对 AI 的话题避之不及了，这和我们对待新事物的态度是吻合的，热情来时很强烈，消失时又一下子无影无踪。</p>
+<p>想要获得更多的注意力，那就去蹭热点吧，很多油管的「新闻播报」主播就是这么做的，来一个新闻就去评论一个新闻，他们深谙此道，知道这就是稳定收获观看量的办法。</p>
+<p>热点一定会不断地出现的，就算是没有，那也会被人为地给创造出来，因为我们需要新的东西来保持新鲜感，我们对新鲜感的追求是永无止境的。</p>
+<p>懂得新闻和热点的原理的内容消费者和生产者，才是成熟的内容消费者和生产者。</p>
+<h3 id="_6">好奇心、猎奇心和窥探欲<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>假设现在给你一个盒子，你会打开它吗？</p>
+<p><a class="glightbox" href="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages74c5bfcb-9ebe-4f9b-98fc-ba43f5230702_1280x720-20230521085035-1ur0oo7.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="." src="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages74c5bfcb-9ebe-4f9b-98fc-ba43f5230702_1280x720-20230521085035-1ur0oo7.png" /></a></p>
+<p>面对着一个精美的盒子，你抓心挠肺地想知道里面是什么，好奇心让你无比煎熬，正如当初潘多拉所忍受的煎熬那样。</p>
+<p>不用想，你迟早会打开它的，就像潘多拉最终也打开了魔盒一样。</p>
+<p><a class="glightbox" href="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages81328727-df46-48f6-8abc-595f83c72ba5_1024x768-20230521085035-q0cyazo.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="." src="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages81328727-df46-48f6-8abc-595f83c72ba5_1024x768-20230521085035-q0cyazo.png" /></a></p>
+<p>为什么人们特别喜欢围观、喜欢吃瓜？为什么人们总是爱八卦？为什么人们总是不停地问为什么？</p>
+<p>这些都是因为好奇心，发自本能的好奇心。</p>
+<p>人们的好奇心也是很容易被利用的。</p>
+<p>有些内容生产者就会卖关子，比如说某个剧集在最关键的时候戛然而止，又比如说几百年前的小说里就会写的「欲知后事如何，且听下回分解」；还有一些会暗戳戳地表示自己获得了某些内幕消息（小道消息），激起人们的好奇心；还有一些就是搞搞标题党，夸大其词，骗你来点击一下……</p>
+<p>好奇心还会延伸出猎奇心和窥探欲。</p>
+<p>利用人们猎奇心理的最典型的例子就是 MrBeast，他的视频往往就是那种非常庞大的数字、非常多的人和道具、非常壮观的场面……比如说「用步枪射击 1000 个叠在一起的避孕套」以及「最后走出圈子的人将会获得 100 万美元」等等这样的主题。</p>
+<p><a class="glightbox" href="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages2c7f744c-8221-4387-9886-f7b3a1d6b1b2_1280x720-20230521085036-g5tqcu8.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="." src="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages2c7f744c-8221-4387-9886-f7b3a1d6b1b2_1280x720-20230521085036-g5tqcu8.png" /></a></p>
+<p>他们就刻意策划这些有点疯狂，有点浮夸，又让人迫切想知道结果的主题，来吸引观众，当然也特别有效，到目前为止，他在油管上已经有 1.5 亿（非常惊人的数字）的订阅者，这应该是整个平台上最多订阅的频道了，可谓是把人们的猎奇心给玩得炉火纯青。</p>
+<p><a class="glightbox" href="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages60b7c18d-980f-4d4a-9ef7-009054796014_1280x720-20230521085036-sywexrn.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="." src="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages60b7c18d-980f-4d4a-9ef7-009054796014_1280x720-20230521085036-sywexrn.png" /></a></p>
+<p>当然了，关于好奇心这一点，它的范围可以非常大，你或许也有自己的理解。</p>
+<h3 id="_7">人人都爱听故事<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>如果让你去办一份报纸，你会通过什么方式来提高它的销量？</p>
+<p>金庸选择了在报纸上连载武侠小说。</p>
+<p>金庸先生的《明报》创刊的第一天，《神雕侠侣》就开始在其上连载。说《明报》是靠他的武侠小说撑起来的并不过分，许多人就是为了看小说才买的报纸，也正是靠着武侠小说，《明报》才撑过了艰苦的草创时期。</p>
+<p>他实际上也利用了人们喜爱故事的特点，通过武侠故事来吸引人们的注意力。</p>
+<p><a class="glightbox" href="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimagesde1c12b1-7cb1-48a9-b724-f90a45459a33_469x346-20230521085037-2yjh420.jpeg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="." src="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimagesde1c12b1-7cb1-48a9-b724-f90a45459a33_469x346-20230521085037-2yjh420.jpeg" /></a></p>
+<p>人人都爱故事，所以我们需要文学、戏剧和电影。</p>
+<p>好的故事不但可以当作是一种消遣娱乐，而且可以让听者产生共鸣，激发听者的想象力，甚至是给听者以启发。我一直都认为讲故事是一门非常有价值而且非常值得琢磨的技艺。</p>
+<p>说起讲故事，莫言应该算是好手了，他在诺贝尔奖颁奖台上的发言的题目就是《讲故事的人》。实际上，我看了不少的文学作品，那些优秀的文学作品无一例外不是很会讲故事的。</p>
+<p>另一个讲故事的好手是做动画电影的皮克斯。他们虽然拥有全世界最顶尖的动画技术和计算机图形学技术，但是他们依旧深知，好的电影并不在于动画的细节有多逼真，而在于它是否是一个好故事。哪怕画面再出色，如果一个故事不够出色，那么一切都是徒劳，所以他们会把大量的时间花费在故事情节上。</p>
+<p><a class="glightbox" href="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimagesaee2fd19-df5a-4993-b420-fe98874055a0_1437x808-20230521085037-207iyap.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="." src="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimagesaee2fd19-df5a-4993-b420-fe98874055a0_1437x808-20230521085037-207iyap.png" /></a></p>
+<p>如果你有一个好的故事，那么不妨分享出来吧，因为好的故事从来都不会缺乏观众，也不会缺乏为它买单的观众。</p>
+<p>如果你想让你的东西变得吸引人一点，亦或者你想推销某个东西，不妨通过讲故事的方式来表达吧。自我宣传的最好的方式就是讲故事，而绝对不是干巴巴地吹嘘。</p>
+<h3 id="_8">渴望财富吗？<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<p>19 世纪 50 年代，美国加州发现了一座大金矿，这个消息很快传遍了整个美国，很多人听到消息后放下了工作和家人，前往加州去寻找财富，后来当越来越多的发财的消息从西部传到各地后，就吸引了更多「眼红」的人朝着西部蜂拥而至，但最终只有极少数人是真正发财的。这个就是历史上的淘金热。</p>
+<p><a class="glightbox" href="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages0c9779c5-2388-4a3b-964e-734222ab8ea8_980x654-20230521085037-oj2j11d.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="." src="../assets/net-img-httpssubstack-post-media.s3.amazonaws.compublicimages0c9779c5-2388-4a3b-964e-734222ab8ea8_980x654-20230521085037-oj2j11d.png" /></a></p>
+<p>淘金热的故事一直在上演，离我们现在最近的淘金热就是互联网，比如说某个人在抖音（或 TikTok）上火了，然后发财了，这样的消息就吸引了无数的人去玩抖音，这不就是淘金热吗？实际上，抖音官方也是不断扶持「淘金发财者」，通过这些消息来不断吸引生产者们冲去玩抖音。</p>
+<p>说这些例子其实是想说明，渴望财富的人性特质是很容易被利用的。</p>
+<p>人们很容易就对那些能给能让自己获得财富的东西趋之若鹜，哪怕那只是一两句传闻而已。</p>
+<p><strong>在互联网上只要是和赚钱相关的内容很容易引发关注。</strong></p>
+<p>这样的内容多种多样，最低级的就是直接教你如何赚钱；稍微高级一点的就是间接教你如何赚钱，比如说分享项目案例、教你如何求职、教你如何混职场、教你如何把某项工作给做好；再高级一些的就是教你如何提升自己，教会你某项技能，让你可以用这些知识和技能来获取实际的收益。</p>
+<p>没有人不渴望财富，没有人不曾焦虑于如何才能获得财富。</p>
+<p>2023.5.20</p>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      最后更新:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-05-25</span>
+      
+        <br>
+        创建日期:
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-05-21</span>
+      
+    
+  </small>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            回到页面顶部
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.78eede0e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
