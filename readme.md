@@ -1,6 +1,6 @@
-# 记录一些文档
+# 序言
 
-![00](ima\annie-sprat.jpg)
+![00](ima/annie-sprat.jpg)
 
 健康很重要，可少有人花时间 study 这方面的知识，在今天，其实很容易。
 
