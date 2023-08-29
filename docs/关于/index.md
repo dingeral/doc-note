@@ -1,4 +1,4 @@
-框架：![ ](https://img.shields.io/badge/-mkdocs-green)
+框架：![ ](https://img.shields.io/badge/mkdocs-green)
 
 主题：![ ](https://img.shields.io/docker/v/squidfunk/mkdocs-material?label=Material)
 
@@ -8,7 +8,7 @@
 
 服务器：![ ](https://img.shields.io/badge/-Vercel-blue)
 
-域名：![ ](https://img.shields.io/badge/Freenom-free-red)
+域名：![ ](https://img.shields.io/badge/NameSoil-free-red)
 
 外链：![ ](https://img.shields.io/badge/-SMMS-yellowgreen)
 

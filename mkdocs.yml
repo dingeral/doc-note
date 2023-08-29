@@ -122,6 +122,10 @@ extra_javascript:
 nav:
     - 主页:
         - index.md
+    - 翻译:
+        - 无穷的开始:
+            - 序言: translate/无穷的开始/00.md
+            - 解释的范围: translate/无穷的开始/01.md
     #     - 哲学是什么: zx.md
     # - 研学:
     #     - 开端: 研学/开端.md
