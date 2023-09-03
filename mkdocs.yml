@@ -155,10 +155,9 @@ nav:
     #     - 思考/index.md
     #     - 故事: 思考/故事.md
     #     - 观点: 思考/观点.md
-    # - 竹简:
-    #     - little: 竹简/little.md
-    #     - long: 竹简/2022/long.md
-    #     - 2023: 竹简/2023/ns.md
+    - 竹简:
+        - 2022: 竹简/2022/2022.md
+        - 2023: 竹简/2023/2023.md
     # - skill: 
     #     - skills/index.md
     #     - win 命令行: skills/0306.md
