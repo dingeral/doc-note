@@ -124,6 +124,7 @@ nav:
         - index.md
     - 软件:
         - 装机必备: software/01.md
+        - 基本软件: software/02基本软件.md
     - 翻译:
         - 无穷的开始:
             - 00 序言: translate/无穷的开始/00.md
