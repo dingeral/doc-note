@@ -6,13 +6,16 @@ theme:
         - navigation.instant
         - navigation.tracking
         - navigation.tabs
+        # - navigation.tabs.sticky
         # - navigation.expand
         # - navigation.sections
         - navigation.indexes
+        - navigation.path
         - toc.follow
         - navigation.top
         - search.suggest
         - search.highlight
+        - navigation.prune
   icon:
         admonition:
             note: fontawesome/solid/note-sticky
@@ -58,8 +61,7 @@ theme:
 
 plugins:
     - search:
-            separator: '[/s/u200b/-]'
-            # jieba_dict: dict.txt
+            jieba_dict: dict.txt
             lang: zh
     - tags
     - glightbox:

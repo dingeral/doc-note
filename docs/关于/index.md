@@ -8,9 +8,9 @@
 
 服务器：![ ](https://img.shields.io/badge/-Vercel-blue)
 
-域名：![ ](https://img.shields.io/badge/NameSoil-1-red)
+域名：![ ](https://img.shields.io/badge/NameSoil-xyz-red)
 
-外链：![ ](https://img.shields.io/badge/-SMMS-yellowgreen)
+<!-- 外链：![ ](https://img.shields.io/badge/-SMMS-yellowgreen) -->
 
 编辑:：![ ](https://img.shields.io/badge/-VS%20Code-orange)
 
