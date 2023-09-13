@@ -30,20 +30,6 @@ theme:
             bug: fontawesome/solid/robot
             example: fontawesome/solid/flask
             quote: fontawesome/solid/quote-left
-  # palette:
-  #   primary: teal
-
-  #   # Palette toggle for light mode
-  #   # - scheme: default
-  #   toggle:
-  #       icon: material/brightness-7 
-  #       name: Switch to dark mode
-
-  #   # # Palette toggle for dark mode
-  #   # - scheme: slate
-  #   toggle:
-  #       icon: material/brightness-4
-  #       name: Switch to light mode
 
   palette:
     - scheme: default
@@ -160,9 +146,9 @@ nav:
     - 竹简:
         - 2022: 竹简/2022/2022.md
         - 2023: 竹简/2023/2023.md
-    # - skill: 
-    #     - skills/index.md
-    #     - win 命令行: skills/0306.md
+    - skill: 
+        - Google: skills/google.md
+        - win: skills/win.md
     # - 基础工程:
     #     - 基础工程/index.md
         # - 🗃 网页: 基础工程/0206.md
