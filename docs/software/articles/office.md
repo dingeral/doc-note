@@ -22,6 +22,7 @@ office365 通常会安装 Word/Excel/PPT/Publisher/OneDrive/Outlook/Access，但
 <Language ID="zh-cn" />
 <ExcludeApp ID = "Publisher"/>
 <ExcludeApp ID = "Groove"/>
+<ExcludeApp ID = "OneNote"/>
 <ExcludeApp ID = "Bing"/>
 <ExcludeApp ID = "lync"/>
 <ExcludeApp ID = "Access"/>

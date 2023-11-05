@@ -113,10 +113,7 @@ nav:
     - 软件:
         - 装机必备: software/01.md
         - 基本软件: software/02基本软件.md
-    - 翻译:
-        - 无穷的开始:
-            - 00 序言: translate/无穷的开始/00.md
-            - 01 解释的范围: translate/无穷的开始/01.md
+        - office 365: software/articles/office.md
     #     - 哲学是什么: zx.md
     # - 研学:
     #     - 开端: 研学/开端.md
