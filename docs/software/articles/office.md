@@ -20,15 +20,15 @@ office365 通常会安装 Word/Excel/PPT/Publisher/OneDrive/Outlook/Access，但
 <Add OfficeClientEdition="64" Channel="Current">
 <Product ID="O365ProPlusRetail">
 <Language ID="zh-cn" />
-<ExcludeApp ID = "Publisher"/>
-<ExcludeApp ID = "Groove"/>
-<ExcludeApp ID = "OneNote"/>
-<ExcludeApp ID = "Bing"/>
-<ExcludeApp ID = "lync"/>
-<ExcludeApp ID = "Access"/>
-<ExcludeApp ID = "Outlook"/>
-<ExcludeApp ID = "Teams"/>
-<ExcludeApp ID = "Skype"/>
+<ExcludeApp ID="Access"/>
+<ExcludeApp ID="Bing"/>
+<ExcludeApp ID="Groove"/>
+<ExcludeApp ID="lync"/>
+<ExcludeApp ID="OneNote"/>
+<ExcludeApp ID="Outlook"/>
+<ExcludeApp ID="Publisher"/>
+<ExcludeApp ID="Skype"/>
+<ExcludeApp ID="Teams"/>
 </Product>
 
 </Add>
