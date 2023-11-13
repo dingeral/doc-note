@@ -111,10 +111,11 @@ nav:
     - 主页:
         - index.md
     - 软件:
-        - 装机必备: software/01.md
+        - 装机优化: software/01.md
         - 基本软件: software/02基本软件.md
         - office 365: software/articles/office.md
         - Windows: software/articles/windows.md
+        - 广告: software/articles/ad.md
     #     - 哲学是什么: zx.md
     # - 研学:
     #     - 开端: 研学/开端.md
