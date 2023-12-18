@@ -46,6 +46,7 @@ theme:
         name: 切换到日光模式
 
 plugins:
+    - tags
     - search:
             jieba_dict: dict.txt
             lang: zh

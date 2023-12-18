@@ -1,3 +1,8 @@
+---
+tags:
+  - office
+---
+
 # office 365
 
 ## 按需求安装
