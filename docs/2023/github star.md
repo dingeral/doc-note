@@ -7,9 +7,9 @@ tags:
 
 - [Mooc_Downloader](https://github.com/PyJun/Mooc_Downloader)
 
-- [GitHub中文排行榜](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
+- [GitHub 中文排行榜](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
 
-- [一言·古诗词](https://github.com/xenv/gushici)：随机返回一条古诗词名句
+- [一言 · 古诗词](https://github.com/xenv/gushici)：随机返回一条古诗词名句
 
 - [动态排名数据可视化](https://github.com/Jannchie/anichart.js)：轻松地制作数据可视化动画视频。
 
