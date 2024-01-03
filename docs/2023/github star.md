@@ -40,3 +40,5 @@ tags:
 - [webstack-jekyll](https://github.com/0xl2oot/webstack-jekyll)：静态响应式网址导航网站 Webstack - Jekyll 版
 
 - [MkDocs](https://www.mkdocs.org/)：静态站点生成器，用于构建项目文档。
+
+- [2012-huhexian](https://github.com/huhexian/2012-huhexian)：一个基于 Twenty Twelve 修改的 WordPress 双栏文字主题
