@@ -1,5 +1,6 @@
 site_name: 笔记
 theme:
+  favicon: 氢-32.png
   name: material
   language: zh
   features: 
