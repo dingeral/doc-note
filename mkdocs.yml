@@ -1,6 +1,7 @@
 site_name: 笔记
 theme:
   favicon: 氢-48.png
+  logo: 氢-48.png
   name: material
   language: zh
   features: 
