@@ -6,7 +6,7 @@
 
 构建：![ ](https://img.shields.io/badge/-GitHub%20Actions-blue)
 
-服务器：![ ](https://img.shields.io/badge/-Vercel-blue)
+服务器：![ ](https://img.shields.io/badge/-CloudFlare-blue)
 
 域名：![ ](https://img.shields.io/badge/NameSoil-xyz-red)
 
