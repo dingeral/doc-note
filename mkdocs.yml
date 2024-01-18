@@ -153,6 +153,7 @@ nav:
     - skill: 
         - Google: skills/google.md
         - win: skills/win.md
+        - 双拼: skills/双拼.md
     # - 基础工程:
     #     - 基础工程/index.md
         # - 🗃 网页: 基础工程/0206.md
